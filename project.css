@@ -1,0 +1,21 @@
+html,body {
+    font-family: arial;
+    font-size: 1.1em;
+}
+
+main {
+    margin: auto;
+    width: 800px;
+}
+
+input,textarea {
+    font-size: 1.1em;
+}
+
+a {
+    color: #0433FF;
+}
+
+.error {
+    background-color: #ffc6c4;
+}
