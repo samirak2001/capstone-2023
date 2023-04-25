@@ -18,4 +18,6 @@ $(document).ready(function() {
             alert("Thank you! Please watch your email for our exciting newsletter and offers!"); //else, confirm form has been recieved
         }
     });
+
+
 });

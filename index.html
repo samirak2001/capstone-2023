@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="project.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+    <script src="cproject.js"></script>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.shiftKey) {
+                document.querySelector('nav').focus();
+            }
+        });
+    </script>
     <link
             href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Titillium+Web|Varela+Round&display=swap"
             rel="stylesheet"
@@ -15,26 +23,26 @@
         <img src="/Users/samirakamal/Downloads/output-onlinepngtools (1).png" alt="Profile Picture"
              width="2"
              height="4"/>
-        <p class="headname">socialAble</p>
+        <p tabindex="1" class="headname">SociAble</p>
         <ul>
-            <li><a href="#home" tabindex="1"> HOME</a></li>
-            <li><a href="#howtouse" tabindex="2"> HOW TO USE </a></li>
-            <li><a href="#twitter" tabindex="3">TWITTER </a></li>
-            <li><a href="#instagram"tabindex="4"> INSTAGRAM</a></li>
-            <li><a href="#tiktok" tabindex="5">TIKTOK</a></li>
+            <li><a href="#home"tabindex="2"> HOME</a></li>
+            <li><a href="#howtouse" tabindex="3"> HOW TO USE </a></li>
+            <li><a href="#twitter" tabindex="4">TWITTER </a></li>
+            <li><a href="#instagram" tabindex="5"> INSTAGRAM</a></li>
+            <li><a href="#tiktok" tabindex="6">TIKTOK</a></li>
         </ul>
     </nav>
 </head>
 
 <body>
-<div class="main" tabindex="1">
-    <div class="home" id="home" tabindex="7">
+<div class="main">
+    <div class="home" id="home" tabindex="6">
         <img src="/Users/samirakamal/Downloads/output-onlinepngtools (1).png" alt="Profile" />
-        <p class="namestart" tabindex="8">
-            Welcome to socialAble: <br />
+        <p class="namestart" tabindex="7">
+            Welcome to SociAble: <br />
             Social Media Made Accessible
         </p>
-        <p class="nameabout" tabindex="9">
+        <p class="nameabout" tabindex="8">
             Social media has become an integral part of our lives, allowing us to connect with friends, family,
             and colleagues around the world. However, not all social media platforms are designed with accessibility
             in mind, and this can create barriers for users with disabilities. This website is to provide users with
@@ -42,75 +50,132 @@
             disabled groups in social networking.
         </p>
     </div>
-    <div class="howtouse" id="howtouse" tabindex="10">
-        <h1>How To Use</h1>
+    <div class="howtouse" id="howtouse" tabindex="9">
+        <h1 tabindex="10">How To Use</h1>
         <p class="nameabout" tabindex="11">
-            A guide on how to use the website
+            Overall, to use the website, navigate using the links in the navigation bar to access the different
+            sections of the website. Read through the information provided in each section to learn about how to
+            make different social media platforms more accessible. Throughout the website, there are various
+            accessibility features such as tabindex attributes and alternate text for images.
         </p>
     </div>
-    <div class="twitter" id="twitter" tabindex="-12" >
+    <div class="twitter" id="twitter" tabindex="12">
         <img style="float: left; margin: 0px 10px 0px 0px;" src="/Users/samirakamal/Downloads/output-onlinepngtools (3).png" width="120" height="120"/>
-            <h1>Twitter</h1>
-        <div class="service-details" tabindex="13">
-                <h3>Alternate Text:</h3>
-                <p>
+            <h1 tabindex="13">Twitter</h1>
+        <div class="service-details">
+                <h3 tabindex="14">Alternate Text:</h3>
+                <p tabindex="15">
                     Allows users to add alternative text to images for visually impaired users.
                 </p>
+            <ol>
+                <li style="padding-bottom:10px" tabindex="16">After uploading an image to a Tweet, select Add description underneath the image.</li>
+                <li style="padding-bottom:10px" tabindex="17">Enter a description of the image in the text box.</li>
+                <li style="padding-bottom:10px" tabindex="18">Select Save. An ALT badge will appear in the corner of the image.
+                    (“ALT” is the abbreviation for alternative text, which is the technical name
+                    for image description.)</li>
+                <li style="padding-bottom:10px" tabindex="19"> Select Tweet. When someone selects the ALT badge, the image description appears on screen.</li>
+            </ol>
         </div>
         <p align="center">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/sWUr8BcmxVk" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen tabindex="14">
+                allowfullscreen tabindex="20" >
         </iframe>
         </p>
-        <div class="service-details" tabindex="15">
-                <h3>Keyboard navigation:</h3>
-                <p>
+        <div class="service-details" tabindex="21" >
+                <h3 tabindex="22">Keyboard Navigation:</h3>
+                <p tabindex="23">
                     Offers a way to navigate the website using only the keyboard for
                     users who cannot use a mouse.
                 </p>
+            <ul style="float:left; margin: 0px 54px 30px 40px;">
+                <h4 tabindex="24">Actions:</h4>
+                <li style="padding-bottom:10px" tabindex="25">n  =  new Tweet</li>
+                <li style="padding-bottom:10px" tabindex="26">l  =  like</li>
+                <li style="padding-bottom:10px" tabindex="28">r  =  reply</li>
+                <li style="padding-bottom:10px" tabindex="29">t  =  Retweet</li>
+            </ul>
+            <ul style="float:left;margin: 0px 40px 30px 40px;">
+                <h4 tabindex="30">Navigation:</h4>
+                <li style="padding-bottom:10px" tabindex="31">?  =  full keyboard menu</li>
+                <li style="padding-bottom:10px" tabindex="32">j  =  next Tweet</li>
+                <li style="padding-bottom:10px" tabindex="33">k  =  previous Tweet</li>
+                <li style="padding-bottom:10px" tabindex="34">space  =  page down</li>
+            </ul>
+            <ul style="float:left;margin: 0px 40px 30px 40px;">
+                <h4 tabindex="35">Timelines:</h4>
+                <li tabindex="36" style="padding-bottom:10px">g and h  =  Home timeline</li>
+                <li tabindex="37" style="padding-bottom:10px">g and o  =  Moments</li>
+                <li tabindex="38"style="padding-bottom:10px">g and n  =  Notifications tab</li>
+                <li tabindex="39"style="padding-bottom:10px">g and r  =  Mentions</li>
+            </ul>
         </div>
-        <p align="center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qt94BRN2hAo"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-
-        </iframe>
-        </p>
-        <div class="service-details" tabindex="16">
-                <h3>Text size and color:</h3>
-                <p>
+        <div class="service-details" tabindex="40" >
+                <h3 tabindex="41">Text Size and Color:</h3>
+                <p tabindex="42">
                     Provides options to adjust the text size and color contrast
                     for users with visual impairments.
                 </p>
+            <ol>
+                <li tabindex="43" style="padding-bottom:10px">Go to user settings.</li>
+                <li tabindex="44" style="padding-bottom:10px">Go to Accessibility, display, and languages.</li>
+                <li tabindex="45" style="padding-bottom:10px">Go to Display and sound.</li>
+                <li tabindex="46" style="padding-bottom:10px">Change text size using the toggle. Turn on Dark mode.</li>
+            </ol>
         </div>
-        <div class="service-details" tabindex="17">
-                <h3> Closed captions:</h3>
-                <p>
+        <p align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qt94BRN2hAo"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen tabindex="47">
+
+            </iframe>
+        </p>
+        <div class="service-details" tabindex="48" >
+                <h3 tabindex="49"> Closed Captions:</h3>
+                <p tabindex="50">
                     Offers an option to include closed captions in videos for deaf or hard-of-hearing users.
                 </p>
+            <ol>
+                <li tabindex="51" style="padding-bottom:10px">Upload a video to your Tweet.</li>
+                <li tabindex="52" style="padding-bottom:10px">Select Upload caption file (.srt) below the video.</li>
+                <li tabindex="53" style="padding-bottom:10px">In the pop-up, select the Upload captions button,
+                    then choose the caption file from your computer.</li>
+                <li tabindex="54" style="padding-bottom:10px">Select Done.</li>
+                <li tabindex="55" style="padding-bottom:10px">Under the video, the name of the language your captions
+                    are written in appears in place of the previous upload command.</li>
+                <li tabindex="56" style="padding-bottom:10px">If you're satisfied with your Tweet text, video,
+                    and caption file, select Tweet. When your video plays, and the viewer has captions
+                    enabled, the captions will appear toward the bottom of the video.
+                </li>
+            </ol>
         </div>
-        <div class="service-details" tabindex="18">
-                <h3>In-app contrast adjustments: </h3>
-                <p>
+        <div class="service-details" tabindex="57">
+                <h3 tabindex="58">In-App Contrast Adjustments: </h3>
+                <p tabindex="59">
                     Allows users to adjust the color contrast within the Twitter app itself,
                     making it easier for users with visual impairments to access the content.
                 </p>
+            <ol>
+                <li tabindex="60"style="padding-bottom:10px">Go to user settings.</li>
+                <li tabindex="61"style="padding-bottom:10px">Go to Accessibility, display, and languages.</li>
+                <li tabindex="62" style="padding-bottom:10px">Go to Accessibility.</li>
+                <li tabindex="63"style="padding-bottom:10px">Under Vision, toggle Increase color contrast.</li>
+            </ol>
         </div>
         <p align="center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/z7F3y8RfAug"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+                allowfullscreen tabindex="64">
 
         </iframe>
         </p>
     </div>
-    <div class="ig" id="instagram" tabindex="-12" >
+    <div class="ig" id="instagram" tabindex="65">
         <img style="float: left; margin: 0px 10px 0px 0px;" src="/Users/samirakamal/Desktop/Instagram-Icon.png" width="90" height="90"/>
         <h1>Instagram</h1>
-        <div class="service-details" tabindex="13">
+        <div class="service-details">
             <h3>Alternate Text:</h3>
             <p>
                 Automatic alt text uses object recognition technology to provide a visual description of
@@ -119,22 +184,22 @@
                 using a screen reader to access Instagram.
             </p>
         </div>
-        <div class="service-details" tabindex="15">
-            <h3>Voiceover support:</h3>
+        <div class="service-details">
+            <h3>Voiceover Support:</h3>
             <p>
             Offers support for users with visual impairments by providing a voiceover feature that
                 reads out the contents of the post and its associated comments.
             </p>
         </div>
 
-        <div class="service-details" tabindex="16">
-            <h3>Text size and color:</h3>
+        <div class="service-details">
+            <h3>Text Size and Color:</h3>
             <p>
                 Provides options to adjust the text size and color contrast for users with visual impairments.
                 You can adjust the text size of Instagram through your device or browser settings.
             </p>
         </div>
-        <div class="service-details" tabindex="17">
+        <div class="service-details">
             <h3>  Customizable Alt Text:</h3>
             <p>
                 Automatic alt text uses object recognition technology to provide a visual description of
@@ -143,15 +208,15 @@
                 using a screen reader to access Instagram.
             </p>
         </div>
-        <div class="service-details" tabindex="18">
-            <h3>Voiceover gestures:</h3>
+        <div class="service-details">
+            <h3>Voiceover Gestures:</h3>
             <p>
                 Offers a set of gestures that can be used to navigate the app using only voice commands,
                 making it easier for users with physical disabilities to use the platform.
             </p>
         </div>
     </div>
-    <div class="tiktok" id="TikTok" tabindex="-12" >
+    <div class="tiktok" id="TikTok" >
         <img style="float: left; margin: 0px 10px 0px 0px;" src="/Users/samirakamal/Desktop/tiktok-app-icon-logo-0F5AD7AE01-seeklogo.com.png" width="90" height="90"/>
         <h1>TikTok</h1>
 

@@ -71,6 +71,7 @@ li {
     color: #000;
 }
 
+
 nav a:after {
     border-radius: 1em;
     border-top: 0.1em solid #1799b6;
@@ -216,12 +217,24 @@ nav a:hover:after {
 }
 
 .service-details p {
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 10px;
     font-family: "Varela Round", sans-serif;
     margin-bottom: 20px;
 }
+.service-details ul{
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 10px;
+}
 
+.service-details ol{
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 10px;
+}
 .blog {
     margin-left: 50px;
 }
