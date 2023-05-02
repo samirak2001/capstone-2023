@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/cproject.js" beforeDir="false" afterPath="$PROJECT_DIR$/cproject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <updated>1682283241932</updated>
       <workItem from="1682283243143" duration="30303000" />
       <workItem from="1682427008906" duration="1257000" />
-      <workItem from="1682444565228" duration="6274000" />
+      <workItem from="1682444565228" duration="7478000" />
     </task>
     <task id="LOCAL-00001" summary="commit files to repo">
       <created>1682283323102</created>
@@ -128,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682445000903</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit files to repo">
+      <created>1682457444625</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682457444625</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit files to repo">
+      <created>1682457506427</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682457506427</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

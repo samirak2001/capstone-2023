@@ -256,6 +256,11 @@ nav a:hover:after {
     margin-bottom: 20px;
 }
 
+input {
+    position: relative;
+    top: 200px;
+}
+
 /* /////////////////////footer///////////////////////////////// */
 
 footer p {
